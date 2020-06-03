@@ -1,2 +1,2 @@
-# Project1
+# Receiver
 Using python flask and herok
