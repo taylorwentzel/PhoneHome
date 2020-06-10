@@ -1,2 +1,2 @@
 # Receiver
-Using python flask and herok
+Phones home with user information.
