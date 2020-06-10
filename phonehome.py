@@ -1,3 +1,3 @@
 import requests
-payload = {'name':'Taylor Wentzel', 'username': 'taylorwentzel'}
+payload = {'name':'Kit Plummer', 'username': 'kitplummer'}
 r = requests.post('https://ghatracker.herokuapp.com/', json=payload)
