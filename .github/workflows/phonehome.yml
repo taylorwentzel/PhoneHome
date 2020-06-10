@@ -1,5 +1,3 @@
-# Action that will run python script to send http post request
-
 name: Phone Home
 
 on: [pull_request, push]
