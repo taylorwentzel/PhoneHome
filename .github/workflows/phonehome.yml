@@ -1,4 +1,4 @@
-name: Test
+name: DockerFile Test
 
 on: [push, pull_request]
 
