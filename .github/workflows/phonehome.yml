@@ -1,6 +1,4 @@
 name: DockerFile Test
-# test
-# test
 
 on: [push, pull_request]
 
