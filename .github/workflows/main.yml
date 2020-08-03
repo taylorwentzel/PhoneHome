@@ -15,5 +15,5 @@ jobs:
      - uses: schdck/create-env-json@v1
        id: create-env
        with:
-        filename: 'env.json'
+        file-name: 'env.json'
         variable: 'Hello World'
