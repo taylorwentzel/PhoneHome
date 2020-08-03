@@ -1,10 +1,10 @@
-name: DockerFile Test
+name: Lei Test
 
-on: [pull_request]
+on: [push, pull_request]
 
 jobs:
   request:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: taylorwentzel/GHA-Tracker@master
+      - uses: gtri/lowendinsight@develop
