@@ -10,16 +10,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    steps:
-     - uses: schdck/create-env-json@v1
-       id: create-env
-       with:
-        file-name: 'env.json'
-        variable: 'Hello World'
-jobs:
-  build:
-    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
       with:
