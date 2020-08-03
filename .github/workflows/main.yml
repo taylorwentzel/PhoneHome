@@ -20,7 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
      - uses: schdck/create-env-json@v1
-     - id: create-env
-     - with:
-         filename: 'env.json'
-         variable: ${{ Hello World }}
+       id: create-env
+       with:
+        filename: 'env.json'
+        variable: ${{ Hello World }}
